@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import "./Services.css";
 import DesignCollage from "../images/design-develop.png";
 import DevelopmentCollage from "../images/development-collage.png";
+import UiUx from "../images/ux-ui.jpg";
+import DigitalMarketing from "../images/digital-marketing.jpg";
+import Analytics from "../images/analytics.jpg";
 import Dots from "../images/dots-svg.png";
 import ParallaxSquares from "../images/parallax-squares.png";
 import { Link, useNavigate } from "react-router";
@@ -141,7 +144,7 @@ export default function Services() {
         </div>
 
         <div className="service-div">
-          <img src={Image9} alt="Design collage" />
+          <img src={UiUx} alt="Design collage" />
           <div className="service-text">
             <h1>UI/UX Solutions</h1>
             <p>
@@ -190,7 +193,7 @@ export default function Services() {
 
       <div className="services-wrapper-row">
         <div className="service-div">
-          <img src={DesignCollage} alt="Design collage" />
+          <img src={DigitalMarketing} alt="Design collage" />
           <div className="service-text">
             <h1>Digital Marketing</h1>
             <p>
@@ -236,7 +239,7 @@ export default function Services() {
         </div>
 
         <div className="service-div">
-          <img src={DesignCollage} alt="Design collage" />
+          <img src={Analytics} alt="Design collage" />
           <div className="service-text">
             <h1>Analytics & Reporting</h1>
             <p>
