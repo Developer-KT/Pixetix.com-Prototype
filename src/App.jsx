@@ -70,7 +70,7 @@ export default function App() {
       <>
         {isLoading && (
           <div className={`loading-screen ${isLoading ? "show" : ""}`}>
-            <h1>Pixevit.com: {progress}%</h1>
+            <h1>Pixetix.com: {progress}%</h1>
           </div>
         )}
         <RedirectHandler />
