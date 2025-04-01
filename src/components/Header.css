@@ -1,0 +1,138 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.1rem 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  align-items: center;
+}
+
+/* header #logo {
+  width: 15%;
+} */
+.logo-link {
+  width: 15%;
+}
+header img {
+  width: 100%;
+}
+header img:hover {
+  cursor: pointer;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .tab-link {
+  padding: 1rem 1.8rem;
+  color: aliceblue;
+  font-family: poppins;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: 0.5s;
+}
+header .tab-link:hover {
+  color: #0d8cb4;
+}
+
+.hamburger-menu {
+  display: grid;
+  row-gap: 0.4rem;
+  margin-right: 0.5rem;
+  padding: 0.7rem 0.2rem;
+  justify-items: end;
+}
+.hamburger-menu:hover {
+  cursor: pointer;
+}
+
+.bar1 {
+  width: 1.33rem;
+  height: 0.1222rem;
+  background-color: white;
+}
+
+.bar2 {
+  width: 0.8rem;
+  height: 0.1222rem;
+  background-color: white;
+}
+
+.bar1,
+.bar2 {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hamburger-menu.open .bar1 {
+  transform: rotate(45deg) translateY(8px);
+}
+
+.hamburger-menu.open .bar2 {
+  transform: rotate(-45deg) translateY(-8px);
+  width: 0.8rem;
+}
+
+.mobile-menu {
+  position: absolute;
+  bottom: -1rem;
+  right: 0;
+  width: 25%;
+  height: 25%;
+}
+.mobile-menu ul {
+  background-color: #303030;
+  color: white;
+  list-style: none;
+  color: aliceblue;
+  font-family: poppins;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-align: center;
+  display: grid;
+}
+.mobile-menu li a {
+  display: block;
+  width: 100%;
+  padding: 1rem 0;
+  text-decoration: none;
+  color: unset;
+  transition: 0.5s;
+}
+
+.mobile-menu li a:hover {
+  color: #0d8cb4;
+}
+
+.t-col1 {
+  background-color: #252525 !important;
+}
+
+.active {
+  color: #0d8cb4 !important;
+}
+
+.tab-div {
+  position: relative;
+}
+
+/* .active-nav {
+  height: 3px;
+  background: #385ae0;
+  border-radius: 1rem;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 100%;
+} */

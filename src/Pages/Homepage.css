@@ -1,0 +1,158 @@
+/* --------------------------------- Media queries */
+
+@media only screen and (max-width: 950px) {
+  .offerings {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-text {
+    margin-left: 10rem;
+    max-width: 70%;
+  }
+
+  .hero-text h1 {
+    font-size: 1.7rem;
+  }
+
+  .recent-work {
+    margin-bottom: 0.5rem;
+  }
+
+  .projects-section {
+    padding: 5rem 3rem 3rem 3rem;
+  }
+
+  .projects-row {
+    gap: 2rem;
+  }
+  .projects-row h3 {
+    font-size: 0.85rem;
+  }
+
+  .view-btn {
+    font-weight: 600;
+    font-size: 0.7rem;
+    padding: 0.3rem 0.8rem;
+  }
+
+  .projects-options {
+    column-gap: 1.5rem;
+  }
+
+  .projects-options a {
+    padding: 0.8rem;
+  }
+
+  .services-section {
+    padding: 4rem 4rem 2rem 4rem;
+  }
+
+  .services-squares {
+    margin-bottom: 5rem !important;
+  }
+
+  .service-text h1 {
+    font-size: 1.1rem;
+  }
+
+  .service-text p {
+    font-size: 0.9rem;
+  }
+
+  .offerings {
+    font-size: 0.7rem;
+    width: 80%;
+  }
+
+  .service-div {
+    padding: 3rem 1.5rem;
+    max-width: 100%;
+  }
+
+  .service-div img {
+    width: 90%;
+  }
+
+  .contact-homepage {
+    padding-top: 2rem !important;
+  }
+
+  .mobile-menu {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 565px) {
+  .default-tab {
+    display: none;
+  }
+
+  .logo-link {
+    width: 40%;
+  }
+  .main-hero {
+    height: 70vh;
+    padding: 4rem 2rem;
+  }
+  .hero-text {
+    margin-left: 1rem;
+    max-width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 1.2rem;
+  }
+  .hero-text p {
+    font-size: 1rem;
+    max-width: 90%;
+  }
+
+  .video-hero1 {
+    width: 50%;
+    top: 26%;
+  }
+  .video-hero2 {
+    width: 35%;
+  }
+
+  .recent-work {
+    font-size: 1rem;
+  }
+
+  .projects-row {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-bottom: 3rem;
+  }
+
+  .projects {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+
+  .services-section {
+    padding: 4rem 2rem 2rem 2rem !important;
+  }
+
+  .services-squares {
+    grid-template-columns: 1fr !important;
+    padding: 0 1rem;
+  }
+
+  .services-wrapper-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .offerings {
+    width: 80%;
+  }
+
+  .squares-img {
+    bottom: 10rem;
+    right: -5rem;
+  }
+}

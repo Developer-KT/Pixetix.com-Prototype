@@ -1,0 +1,93 @@
+.contact-section {
+  background-color: rgb(22, 22, 22);
+  padding: 6rem 5rem 7rem 5rem;
+  position: relative;
+}
+
+.contact-section h1 {
+  color: #0d8cb4;
+  font-weight: bold;
+  font-family: lexend giga;
+  /* text-align: center; */
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.contact-details {
+  font-family: poppins;
+  color: white;
+  width: fit-content;
+  margin: 9rem auto 7rem auto;
+  font-weight: 500;
+}
+
+.contact-details ul li::marker {
+  color: #0d8cb4;
+}
+
+.contact-us-btn {
+  width: fit-content;
+  margin: auto;
+}
+
+.contact-us-btn a {
+  background-color: #0d8cb4;
+  padding: 0.7rem 1rem;
+  font-family: poppins;
+  color: white;
+  font-weight: 600;
+  font-size: 0.75rem;
+  width: fit-content;
+  transition: 0.5s;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.contact-us-btn a:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+/* .parallax-items {
+  position: absolute;
+} */
+
+#squares {
+  position: absolute;
+  right: 10rem;
+  top: 3rem;
+  width: 10%;
+}
+#squares2 {
+  position: absolute;
+  left: 10rem;
+  bottom: 3rem;
+  width: 10%;
+}
+#dots {
+  position: absolute;
+  left: 7rem;
+  top: 16rem;
+  width: 3%;
+}
+#dots2 {
+  position: absolute;
+  right: 16rem;
+  top: 23rem;
+  width: 3%;
+}
+
+/* .form-section {
+  padding: 0 11rem 5rem 11rem;
+  display: flex;
+  justify-content: space-between;
+}
+.form-section h1 {
+  color: white;
+} */
+
+.contact-homepage {
+  padding-top: 5rem !important;
+}

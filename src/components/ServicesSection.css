@@ -1,0 +1,176 @@
+.services-section {
+  background-color: #1d1d1d;
+  padding: 4rem 6rem 2rem 6rem;
+  position: relative;
+}
+
+.services-heading {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.services-heading h1 {
+  font-family: lexend giga;
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.services-heading p {
+  font-family: poppins;
+  color: #0d8cb4;
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.heading-text h1 {
+  font-family: lexend giga;
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.heading-text p {
+  font-family: poppins;
+  color: #0d8cb4;
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.service-div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+  max-width: 90%;
+  /* background-color: #1d1d1d; */
+  border: 0.5px #0d8cb4 solid;
+  padding: 3rem 2rem;
+}
+
+.service-text {
+  margin-top: 2rem;
+}
+.service-text h1 {
+  font-size: 1.5rem;
+  font-family: lexend giga;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+}
+.service-text p {
+  font-family: poppins;
+  font-size: 0.9rem;
+  color: #afafaf;
+  margin-top: 2rem;
+}
+
+.service-div img {
+  width: 100%;
+  margin: auto;
+}
+
+.view-service {
+  margin-top: 3rem;
+  width: fit-content;
+}
+
+.view-service a {
+  background-color: #0d8cb4;
+  padding: 0.7rem 1rem;
+  font-family: poppins;
+  color: white;
+  font-weight: 500;
+  font-size: 0.85rem;
+  transition: 0.5s;
+}
+.view-service a:hover {
+  background-color: white;
+  color: #0d8cb4;
+  cursor: pointer;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: unset;
+}
+
+#parallax-squares3 {
+  position: absolute;
+  top: 4%;
+  left: 17%;
+  width: 7%;
+}
+#parallax-dots3 {
+  position: absolute;
+  top: -2%;
+}
+
+#parallax-squares4 {
+  position: absolute;
+  top: 48%;
+  left: 22%;
+  width: 10%;
+}
+#parallax-dots4 {
+  position: absolute;
+  top: 44%;
+}
+
+#parallax-squares5 {
+  position: absolute;
+  top: 25%;
+  left: 36%;
+  width: 7%;
+}
+#parallax-dots5 {
+  position: absolute;
+  bottom: 11%;
+  width: 3%;
+}
+
+#parallax-squares6 {
+  position: absolute;
+  bottom: 31%;
+  left: 36%;
+  width: 7%;
+}
+
+#parallax-squares8 {
+  position: absolute;
+  top: 30%;
+  right: 33%;
+  width: 5%;
+}
+
+.services-wrapper-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.offerings {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  margin-top: 2rem;
+  justify-content: space-between;
+  color: #afafaf;
+  font-family: poppins;
+  font-size: 0.9rem;
+}
+
+.offerings ul li::marker {
+  color: orange;
+}
+
+.all-services {
+  margin-top: 3rem;
+  margin-bottom: 7rem;
+}
+.all-services a {
+  color: #0d8cb4;
+  font-weight: 500;
+}

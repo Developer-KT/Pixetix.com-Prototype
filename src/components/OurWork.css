@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Offside&display=swap");
+
+.our-work-hero {
+  background-color: #1d1d1d;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between;
+  padding: 0 7rem 0 3rem; */
+}
+
+.our-work-hero h1 {
+  font-family: "Offside", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 3rem;
+}
+
+.our-work-hero p {
+  font-family: "Offside", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+  color: #1d1d1d;
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.04rem white;
+  width: 30%;
+  margin: auto;
+}
+
+.reach-out-paragraph {
+  font-family: dosis;
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  /* font-size: 0.77rem; */
+}

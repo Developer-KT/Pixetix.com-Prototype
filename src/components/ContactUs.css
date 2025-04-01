@@ -1,0 +1,148 @@
+.contact-hero {
+  position: relative;
+}
+.contact-hero img {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 30%;
+  filter: brightness(20%) grayscale(60%);
+}
+
+.form-section-cp {
+  padding: 0 6rem 5rem 6rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1d1d1d;
+}
+
+.form {
+  width: 50%;
+}
+
+form {
+  display: grid;
+}
+
+label {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: white;
+  font-family: poppins;
+  font-weight: 500;
+}
+
+.input {
+  margin: 0.7rem 0;
+  height: 3.25rem;
+  padding: 17px;
+  border: 1.5px white solid;
+  font-family: "Montserrat";
+  background-color: #1d1d1d;
+  color: white;
+}
+.input:focus {
+  outline: none;
+}
+.message {
+  margin: 0.7rem 0;
+  padding: 1.1rem;
+  border: 1.5px white solid;
+  font-family: "Montserrat";
+  background-color: #1d1d1d;
+  color: white;
+}
+.message:focus {
+  outline: none;
+}
+
+.send-button {
+  background-color: white;
+  color: black;
+  font-family: poppins;
+  font-size: 0.8rem;
+  padding: 0 1.3rem;
+  width: fit-content;
+  height: 2.5rem;
+  border: black;
+  /* border-radius: 1rem; */
+  margin-top: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.send-button:hover {
+  background-color: #0d8cb4;
+  color: white;
+}
+
+.contact-details-pg {
+  width: 40%;
+  color: white;
+}
+
+.contact-details-pg h2 {
+  font-family: montserrat;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  color: orange;
+}
+.contact-details-pg p {
+  font-family: dosis;
+  font-size: 1.2rem;
+}
+
+.more-contact-details {
+  margin-top: 5rem;
+  margin-left: 3rem;
+  color: white;
+  width: 50%;
+}
+
+.more-contact-details h1 {
+  font-family: lexend giga;
+  color: orange;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.more-contact-details p {
+  color: #eee;
+  font-family: dosis;
+  font-size: 1.12rem;
+}
+
+.contact-location {
+  margin-top: 3rem;
+}
+
+.contact-location p {
+  font-family: dosis;
+  padding: 0.25rem 0;
+}
+
+.contact-location h3 {
+  font-family: dosis;
+  margin-top: 1rem;
+}
+
+.contact-location span {
+  display: block;
+  width: 10%;
+  height: 0.2rem;
+  background-color: orange;
+}
+
+#parallax-squares3-cp {
+  position: absolute;
+  bottom: 10%;
+  right: 33%;
+  width: 15%;
+}
+
+#parallax-dots3-cp {
+  position: absolute;
+  top: 80%;
+}

@@ -1,0 +1,57 @@
+/* ----------------------------- Media queries */
+
+@media screen and (max-width: 768px) {
+  .our-work-hero h1 {
+    font-size: 3rem;
+  }
+
+  .our-work-hero p {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .our-work-hero {
+    height: 80vh;
+  }
+
+  .our-work-hero h1 {
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .our-work-hero p {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .project {
+    display: grid;
+    justify-items: center;
+    gap: 1.5rem;
+    margin: 4rem 0 6rem 0;
+  }
+
+  .project-text {
+    margin-left: 1rem;
+  }
+
+  .project p {
+    font-size: 0.7rem;
+  }
+
+  .project img {
+    width: 80%;
+  }
+
+  .view-project {
+    margin-top: 2rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .reach-out-paragraph {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,60 @@
+/* -------------------- Media queries */
+
+@media screen and (max-width: 768px) {
+  .hero-section-sp {
+    padding: 0;
+    height: 60vh;
+  }
+
+  .hero-section-sp .heading-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-section-sp .heading-text p {
+    font-size: 0.5rem;
+  }
+
+  .hero-vid {
+    width: 45%;
+  }
+
+  .services-heading h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .hero-section-sp {
+    padding: 0 1rem;
+    height: 60vh;
+  }
+
+  .heading-text {
+    margin-left: 4rem;
+  }
+
+  .hero-vid {
+    width: 45%;
+    right: 0;
+  }
+
+  .moblie-color-change1 {
+    background-color: #0d8cb4;
+  }
+
+  .moblie-color-change2 {
+    background-color: #25303a;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .all-service-offerings {
+    width: 100%;
+  }
+
+  .all-service-offerings ul {
+    grid-template-columns: 1fr;
+    list-style: none;
+    column-gap: 0;
+  }
+}

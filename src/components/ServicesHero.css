@@ -1,0 +1,49 @@
+.hero-section-sp {
+  position: relative;
+  padding: 4rem 5rem;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-between;
+  background-color: #1d1d1d;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-vid {
+  position: absolute;
+  width: 33%;
+  filter: brightness(30%);
+  right: 10%;
+  top: 17%;
+}
+
+.hero-vid2 {
+  width: 24%;
+  filter: brightness(30%);
+  position: absolute;
+  left: 6%;
+  top: 0%;
+}
+
+.heading-text {
+  margin-bottom: 5rem;
+  text-align: center;
+  z-index: 100;
+  margin-left: 10rem;
+}
+
+.heading-text h1 {
+  font-family: lexend giga;
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.heading-text p {
+  font-family: poppins;
+  color: #0d8cb4;
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
